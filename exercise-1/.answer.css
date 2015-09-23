@@ -1,0 +1,150 @@
+html{
+  font-size:16px;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+
+header{
+  text-align: center;
+  background:#eee;
+}
+
+.container{
+    background: #fff;
+}
+
+nav{
+  background: #eee;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+nav a{
+  text-align: center;
+  background: #fafafa;
+  text-decoration: none;
+  font-size: 24px;;
+  line-height: 30px;
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+h1{
+  font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 64px;
+  padding: 0;
+  margin: 0;
+}
+
+footer{
+  width: 100%;
+  font-size: small;
+  padding: 0 15px;
+  color: #999;
+  font-style: italic;
+  clear: both;
+}
+
+
+
+.cool-class{
+  color: purple;
+  background: yellow;
+}
+
+body{
+  background: teal;
+}
+
+aside {
+  background: #ccc;
+  font-style: italic;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+article {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/*******************************************************************************
+Edit after here!
+*******************************************************************************/
+.container{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /*
+    This centers the section horizontally!
+    You can also write it like this:
+      margin: 0 auto;
+  */
+  max-width: 960px;
+  width: 100%;
+}
+
+header{
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+}
+
+aside{
+  float: left;
+  width: 31.25%;
+  max-width: 300px;
+}
+
+aside img{
+  width: 100%;
+}
+
+
+article{
+  float: right;
+  width: 68.75%;
+  max-width: 660px;
+}
+
+article img{
+  float: left;
+  width: 25%;
+  max-width: 165px;
+}
+
+
+/* BONUS */
+
+@media(max-width: 932px){
+  article img{
+    width: 33%;
+    max-width: 33%
+  }
+}
+
+@media(max-width: 610px){
+  header h1{
+    font-size: 18px;
+  }
+  aside{
+    width: 100%;
+    max-width: 100%;
+  }
+  article{
+    width: 100%;
+  }
+
+  /* BONUS */
+  article img{
+    width: 50%;
+    max-width: 50%
+  }
+}
