@@ -82,14 +82,11 @@ Edit after here!
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  /*
-    This centers the section horizontally!
-    You can also write it like this:
-      margin: 0 auto;
-  */
+  max-width: 960px;
 
   width: 960px;
 }
+
 header{
   width: 960px;
 }
@@ -97,7 +94,6 @@ header{
 nav {
   width: 960px;
 }
-
 
 aside{
   float:left;
@@ -108,15 +104,66 @@ aside img{
   width: 270px;
 }
 
-
 article{
   float: right;
-  width: 660px;
+  width: 68.75%;
 }
+
 
 article img{
   float: left;
   width: 157px;
 }
 
+@media(max-width: 960px){
+  aside{
+    width: 31.25%;
+  }
+}
 
+@media(max-width: 960px){
+  article img{
+    width: 68.75%;
+  }
+}
+
+@media(max-width: 679px){
+  article{
+    width: 100%;
+  }
+  aside{
+    width: 100%;
+  }
+}
+
+@media(max-width: 960px){
+  aside img{
+    width: 100%;
+  }
+}
+
+
+
+@media(max-width: 960px){
+  nav{
+    width: 100%;
+  }
+}
+
+@media(max-width: 960px){
+  header{
+    width: 100%;
+  }
+}
+
+@media(max-width: 679px){
+  header h1{
+    font-size: 38px;
+  }
+}
+
+@media(max-width: 959px){
+  .container{
+    width: 100%;
+  }
+}
