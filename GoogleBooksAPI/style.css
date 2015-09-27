@@ -1,0 +1,26 @@
+body {
+  font-family: 'Quattrocento', serif;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+.searchBox {
+  border-radius: 2px;
+  padding: 2px;
+  font-size: 18px;
+}
+
+.searchBtn {
+  border-radius: 2px;
+  padding: 5px;
+  margin: 3px;
+  font-size: 12px;
+  font-family: 'Oswald', sans-serif;
+}
